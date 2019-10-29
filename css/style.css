@@ -1,0 +1,88 @@
+body {
+  background-color: #C5EEFB;
+  color: #033545;
+  font-family: times;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #03526B;
+}
+
+
+p {
+  font-size: 25px;
+}
+
+/* style for navigation bar */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #03526B;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none
+}
+
+/* Change the link color to #111 (black) on hover */
+nav ul li a:hover {
+  background-color: #033646;
+}
+
+nav ul li .active {
+  background-color: #033646;
+}
+
+/* Table style */
+
+table, th, td {
+  border: 1px solid black;
+  font-size: 30px;
+  padding: 10px;
+}
+
+table th {
+ font-size: 35px;
+ color: #033646;
+}
+
+/* List style */
+
+ul li {
+  font-size: 30px;
+  color: #033646;
+}
+
+/* Link style */
+
+a.normal:link  {
+  color: #279EC3;
+  text-decoration: none;
+}
+
+a.normal:visited {
+  color: #279EC3;
+  text-decoration: none;
+}
+
+a.normal:hover {
+  color: #033646;
+  text-decoration: underline;
+}
+
+a.normal:active {
+  color: #033646;
+  text-decoration: underline;
+}
